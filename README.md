@@ -14,7 +14,7 @@ Requirements: The code can be executed online by opening the link (given above) 
 
 ## Contact details
 Intelligent Information Processing Lab, National Center of Artificial Intelligence University of Engineering and Technology Peshawar; 
-Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk 
+*Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk 
 
 ## Code Description
 1. Sentinel image was filtered and experimented with to obtain the most suitable image which we loaded through image ID. The filtering code is commented
@@ -23,24 +23,24 @@ Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk
 
 3. The code is ordered as follows:
   
-  - Filtering and Loading Images, Selecting bands
+   - Filtering and Loading Images, Selecting bands
   
-  - DS and PCA main function definition
+   - DS and PCA main function definition
   
-  - Bands TCCs and FCCs (Outputs are commented)
+   - Bands TCCs and FCCs (Outputs are commented)
   
-  - Raw bands scatter plots (Outputs are commented)
+   - Raw bands scatter plots (Outputs are commented)
   
-  - Apply DS algorithm on all dataset to stretch bands data
+   - Apply DS algorithm on all dataset to stretch bands data
   
-  - Stretched bands scatter plots (Outputs are commented)
+   - Stretched bands scatter plots (Outputs are commented)
   
-  - Apply PCA of stretched bands data of Landsat -8, ASTER, Sentinel - 2 (in this order) output results and plot PC1 vs PC2 and PC3 scatter plots for each dataset
+   - Apply PCA of stretched bands data of Landsat -8, ASTER, Sentinel - 2 (in this order) output results and plot PC1 vs PC2 and PC3 scatter plots for each dataset
   
-  - Apply PCA on Raw data --> Obtain Scatter Plot of PCs ---> Stretche the PCs data ---> Obtain Scatter Plots of stretched PCs
+   - Apply PCA on Raw data --> Obtain Scatter Plot of PCs ---> Stretche the PCs data ---> Obtain Scatter Plots of stretched PCs
             Done this for Landsat -8, ASTER and Sentinel - 2 in this order.
   
-  - Center the map to the specified coordinates (Last line of code)
+   - Center the map to the specified coordinates (Last line of code)
 
 4. To get invidual PCs copy and paste this code snippet below PCA application:
 
