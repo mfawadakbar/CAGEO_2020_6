@@ -32,5 +32,5 @@ Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk
 
 for (var i = 0; i < bandNames.length().getInfo(); i++) {
   var band = pcImage.bandNames().get(i).getInfo();
-  //Map.addLayer(pcImage.select([band]), {min: -2, max: 2}, band);
+  Map.addLayer(pcImage.select([band]), {min: -2, max: 2}, band);
 }
