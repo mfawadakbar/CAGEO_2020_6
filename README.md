@@ -17,38 +17,36 @@ Intelligent Information Processing Lab, National Center of Artificial Intelligen
 Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk 
 
 ## Code Description
-1) Sentinel image was filtered and experimented with to obtain the most suitable image which we loaded through image ID. The filtering code is commented
+1. Sentinel image was filtered and experimented with to obtain the most suitable image which we loaded through image ID. The filtering code is commented
 
-2) All the scatter plots/charts, bands TCCs, FCCs, and Individual PCs outputs are commented to avoid overloading the system. You can uncomment the 'print(...)' and Map.addLayer(...) to get these outputs
+2. All the scatter plots/charts, bands TCCs, FCCs, and Individual PCs outputs are commented to avoid overloading the system. You can uncomment the 'print(...)' and Map.addLayer(...) to get these outputs
 
-3) The code is ordered as follows:
+3. The code is ordered as follows:
   
-  a) Filtering and Loading Images, Selecting bands
+  - Filtering and Loading Images, Selecting bands
   
-  b) DS and PCA main function definition
+  - DS and PCA main function definition
   
-  c) Bands TCCs and FCCs (Outputs are commented)
+  - Bands TCCs and FCCs (Outputs are commented)
   
-  d) Raw bands scatter plots (Outputs are commented)
+  - Raw bands scatter plots (Outputs are commented)
   
-  e) Apply DS algorithm on all dataset to stretch bands data
+  - Apply DS algorithm on all dataset to stretch bands data
   
-  f) Stretched bands scatter plots (Outputs are commented)
+  - Stretched bands scatter plots (Outputs are commented)
   
-  g) Apply PCA of stretched bands data of Landsat -8, ASTER, Sentinel - 2 (in this order) output results and plot PC1 vs PC2 and PC3 scatter plots for each dataset
+  - Apply PCA of stretched bands data of Landsat -8, ASTER, Sentinel - 2 (in this order) output results and plot PC1 vs PC2 and PC3 scatter plots for each dataset
   
-  f) Apply PCA on Raw data --> Obtain Scatter Plot of PCs ---> Stretche the PCs data ---> Obtain Scatter Plots of stretched PCs
+  - Apply PCA on Raw data --> Obtain Scatter Plot of PCs ---> Stretche the PCs data ---> Obtain Scatter Plots of stretched PCs
             Done this for Landsat -8, ASTER and Sentinel - 2 in this order.
   
-  h) Center the map to the specified coordinates (Last line of code)
+  - Center the map to the specified coordinates (Last line of code)
 
-4) To get invidual PCs copy and paste this code snippet below PCA application:
+4. To get invidual PCs copy and paste this code snippet below PCA application:
 
-
+`
 for (var i = 0; i < bandNames.length().getInfo(); i++) {
-
   var band = pcImage.bandNames().get(i).getInfo();
-  
   Map.addLayer(pcImage.select([band]), {min: -2, max: 2}, band);
-
 }
+`
