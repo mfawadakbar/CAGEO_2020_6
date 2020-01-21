@@ -14,7 +14,7 @@ Requirements: The code can be executed online by opening the link (given above) 
 
 ## Contact details
 Intelligent Information Processing Lab, National Center of Artificial Intelligence University of Engineering and Technology Peshawar; 
-*Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk 
+* *Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk 
 
 ## Code Description
 1. Sentinel image was filtered and experimented with to obtain the most suitable image which we loaded through image ID. The filtering code is commented
