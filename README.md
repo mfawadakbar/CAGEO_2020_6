@@ -13,8 +13,8 @@ A readme section is available at the start of the code which describes all the n
 Requirements: The code can be executed online by opening the link (given above) in any browser (Chrome Recommended). No specific system requirements needed. The code is executed on Google Earth Engine cloud computing platform. In our study, this code was developed and executed on a computer system with the following specifications, Intel® Core™ i5-8400 CPU @ (2.8 GHz and 2.81 GHz) and 8 GB RAM.
 
 ## Contact details
-Intelligent Information Processing Lab, National Center of Artificial Intelligence University of Engineering and Technology Peshawar; 
-* Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk 
+The authors of the manuscript are reserarchers at Intelligent Information Processing Lab, National Center of Artificial Intelligence University of Engineering and Technology Peshawar, Khyber Pakhtunkhwa, Pakistan;
+* Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk; shahabuddin@uetpeshawar.edu.pk
 
 ## Code Description
 1. Sentinel image was filtered and experimented with to obtain the most suitable image which we loaded through image ID. The filtering code is commented
