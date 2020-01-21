@@ -14,7 +14,7 @@ Requirements: The code can be executed online by opening the link (given above) 
 
 ## Contact details
 The authors of the manuscript are reserarchers at Intelligent Information Processing Lab, National Center of Artificial Intelligence University of Engineering and Technology Peshawar, Khyber Pakhtunkhwa, Pakistan;
-* Emails:  khan.m@uetpeshswar.edu.pk; mfawadakbar@uetpeshawar.edu.pk; shahabuddin@uetpeshawar.edu.pk
+* Emails:  mfawadakbar@uetpeshawar.edu.pk; khan.m@uetpeshswar.edu.pk; shahabuddin@uetpeshawar.edu.pk
 
 ## Code Description
 1. Sentinel image was filtered and experimented with to obtain the most suitable image which we loaded through image ID. The filtering code is commented
