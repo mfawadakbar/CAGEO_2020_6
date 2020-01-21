@@ -4,7 +4,7 @@ This repository contains code used to generate all the results in the manuscript
 
 The code in this repository can be compiled using Google Earth Engine Javascript Platform. You will need to learn how to run a code on Google Earth Engine: https://www.youtube.com/watch?v=2i6cw7nTbhI&t=28s
  
-The code will automatically run on Google Earth Engine using this link but it needs will need a Google Account: https://code.earthengine.google.com/ac66af0f58994f62485bee76f42e5527
+The code will automatically run on Google Earth Engine using this link but it needs will need a Google Account: https://code.earthengine.google.com/e350f0edb0af533acb7f9545171a359c
 
 
 
