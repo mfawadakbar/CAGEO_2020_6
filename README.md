@@ -2,9 +2,11 @@
 # CAGEO_2020_6
 This repository contains code used to generate all the results in the manuscript "GRANITE AND SHALE CLAY MAPPING IN SHEWA-SHAHBAZGARHI COMPLEX (PAKISTAN): APPLICATION OF DECORRELATION STRETCHING AND FEATURE ORIENTED PRINCIPAL COMPONENT ANALYSIS ON MULTISPECTRAL DATA".
 
-The code is this repository can be compiled using Google Earth Engine Javascript Platform.
+The code is this repository can be compiled using Google Earth Engine Javascript Platform. You will need to learn how to run a code on Google Earth Engine: https://www.youtube.com/watch?v=2i6cw7nTbhI&t=28s
  
-Google Earth Engine Link of the Code: https://code.earthengine.google.com/ac66af0f58994f62485bee76f42e5527
+The code will automatically run on Google Earth Engine using this link but it needs a Google Account to run this code on GEE: https://code.earthengine.google.com/ac66af0f58994f62485bee76f42e5527
+
+
 
 Description: A readme section is available at the start of the code which describes all the necessary details.
 Requirements: The code can be executed online by opening the link (given above) in any browser (Chrome Recommended). No specific system requirements needed. The code is executed on Google Earth Engine cloud computing platform. In our study, this code was developed and executed on a computer system with the following specifications, Intel® Core™ i5-8400 CPU @ (2.8 GHz and 2.81 GHz) and 8 GB RAM.
